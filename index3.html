@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Advanced Search
+        </title>
+        <link rel="stylesheet" href="googlestyle.css">
+    </head>
+    <body>
+        <ul id="indexes">
+            <li><a href="index.html">Google Search</a></li>
+        </ul>
+        <img src="google.jpg" alt="Google" width="300" class="center">
+        <form action="https://www.google.com/search" id="form1">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="all_words" form="form1">All These Words(Write important words):</label></td>
+                        <td><input type="text" name="q" class="adv_text" form="form1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="exact_or_phrase" form="form1">This Exact Word or Phrase(Use commas (" ") for word):</label></td>
+                        <td><input type="text" name="q" class="adv_text" form="form1"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="any_of_words" form="form1">Any of These Words(Add "OR" word between these words):</label></td>
+                       <td><input type="text" name="q" class="adv_text" form="form1"></td> 
+                    </tr>
+                    <tr>
+                        <td><label for="none_of_words" form="form1">None of These Words(Put a minus sign (-) just before words):</label></td>
+                        <td><input type="text" name="q" class="adv_text" form="form1"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <input type="submit" value="Google Advanced Search" class="adv_search" form="form1">
+        </form>
+        
+    </body>
+</html>
